@@ -3,18 +3,26 @@
     <meta charset="utf-8">
     <title>JA</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-light_blue.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-light_blue.min.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="css/main.css"/>
 
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 </head>
-{% include header.html %}
 
 <body>
+{% include header.html %}
+
 <div class="content">
-{{ content }}
+    {{ content }}
 </div>
-</body>
+
 
 {% include footer.html %}
+</body>

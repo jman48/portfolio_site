@@ -38,6 +38,53 @@ $nav_color_1:     black;
 // }
 
 // Import partials from the `minima` theme.
-@import "minima";
+//@import "minima";
 
-@import "header";
+@import "hero";
+
+div {
+  display: block;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.section {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row:after,
+.section:after {
+  clear: both;
+}
+
+.row:before,
+.row:after,
+.section:after,
+.section:before {
+  content: "";
+  display: table;
+}
+
+@media (min-width: 768px) {
+  .section {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section {
+    width: 1170px;
+  }
+}
