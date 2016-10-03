@@ -1,9 +1,7 @@
 .section {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 60px;
+  padding: 60px 15px;
 }
 
 .section {
@@ -18,4 +16,12 @@
 
 .summary-section {
   background-color: white;
+}
+
+.skills-section {
+  background-color: #2296F3;
+
+  .title, .sub-header {
+    color: white;
+  }
 }
