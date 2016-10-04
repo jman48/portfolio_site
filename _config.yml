@@ -31,3 +31,5 @@ theme: minima
 collections:
   works:
     output: true
+  skills:
+    output: true

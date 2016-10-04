@@ -33,6 +33,12 @@ layout: default
     <h2 class="title">SKILLS</h2>
     <p class="sub-header">Some skills</p>
 
+    <div class="skills">
+      {% for skill in site.skills %}
+      <div class="skill-name">{{skill.title}}</div>
+      {% endfor %}
+    </div>
+
   </div>
 </div>
 
