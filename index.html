@@ -4,7 +4,7 @@ layout: default
 <div class="hero_section">
   <div class="hero_title">
     <h2 class="hero_text">
-      MEET ME, JOHN ARMSTRONG
+      {{site.title}}
     </h2>
     <h3 class="typed sub-header"></h3>
   </div>
@@ -31,7 +31,7 @@ layout: default
 <div class="row skills-section">
   <div class="section">
     <h2 class="title">SKILLS</h2>
-    <p class="sub-header">Some skills</p>
+    <p class="sub-header">Some of my tech skills</p>
 
     <div class="skills">
       {% for skill in site.skills %}
@@ -49,7 +49,7 @@ layout: default
 <div class="row works-section">
   <div class="section">
     <h2 class="title">WORKS</h2>
-    <p class="sub-header">Some of what I have done</p>
+    <p class="sub-header">Some of my personal projects</p>
 
     <div class="content-grid mdl-grid">
       {% for project in site.works %}
@@ -77,9 +77,33 @@ layout: default
 </div>
 
 <div class="row contact-section">
-  <div class="section">
-    <h2 class="title">CONTACT</h2>
-    <p class="sub-header">How to contact me</p>
+  <div class="wrapper">
+    <div class="section">
+      <h2 class="title">CONTACT</h2>
+      <p class="sub-header">How to contact me</p>
 
+      <div class="mdl-grid">
+        <div class="contact mdl-cell">
+          <div>
+            <i class="material-icons">call</i>
+            <span>{{site.phone}}</span>
+          </div>
+        </div>
+
+        <div class="contact mdl-cell">
+          <div>
+            <i class="material-icons">email</i>
+            <span>{{site.email}}</span>
+          </div>
+        </div>
+
+        <div class="contact mdl-cell">
+          <div>
+            <i class="material-icons">location_on</i>
+            <span>{{site.location}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
