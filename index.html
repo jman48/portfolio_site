@@ -84,25 +84,31 @@ layout: default
 
       <div class="mdl-grid">
         <div class="contact mdl-cell">
-          <div>
-            <i class="material-icons">call</i>
-            <span>{{site.phone}}</span>
-          </div>
+          <a href="tel:{{site.phone}}">
+            <div>
+              <i class="material-icons">call</i>
+              <span>{{site.phone}}</span>
+            </div>
+          </a>
         </div>
 
         <div class="contact mdl-cell">
-          <div>
-            <i class="material-icons">email</i>
-            <span>{{site.email}}</span>
-          </div>
+          <a href="mailto:{{site.email}}">
+            <div>
+              <i class="material-icons">email</i>
+              <span>{{site.email}}</span>
+            </div>
+          </a>
         </div>
 
         <div class="contact mdl-cell">
-          <div>
-            <i class="material-icons">location_on</i>
-            <span>{{site.location}}</span>
-          </div>
+          <a href="https://www.google.co.nz/maps/search/{{site.location}}">
+            <div>
+              <i class="material-icons icon">location_on</i>
+              <span class="info">{{site.location}}</span>
+            </div>
         </div>
+        </a>
       </div>
     </div>
   </div>

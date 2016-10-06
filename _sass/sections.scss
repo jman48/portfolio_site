@@ -109,14 +109,22 @@
     display: inline-block;
     color: white;
 
+    a {
+      color: white;
+    }
+
     i {
       font-size: 48px;
-      display: block;
+      display: inline-block;
+      float: left;
     }
 
     span {
-      display: flex;
+      display: inline-block;
       align-items: center;
+      float: left;
+      margin-top: 14px;
+      margin-left: 5px;
     }
   }
 }
