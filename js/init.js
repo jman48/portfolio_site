@@ -39,7 +39,7 @@ $(document).ready(function () {
 		slidesToShow: 1,
 		swipeToSlide: true,
 		appendArrows: $('.arrows'),
-		prevArrow: '<i class="material-icons md-48 prev-button">arrow_back</i>',
-		nextArrow: '<i class="material-icons md-48 next-button">arrow_forward</i>'
+		prevArrow: '<button class="prev-button"><i class="material-icons md-48">arrow_back</i></button>',
+		nextArrow: '<button class="next-button"><i class="material-icons md-48">arrow_forward</i></button>'
 	});
 });
