@@ -12,6 +12,7 @@
   .title {
     font-weight: 300;
     text-align: center;
+    color: #2296F3;
   }
 
   .sub-header {
@@ -86,7 +87,6 @@
       outline: none;
     }
 
-
     .skill-level {
       max-height: 200px;
       background-color: white;
@@ -104,11 +104,14 @@
 }
 
 .social {
-  background-image: url("/img/network.jpg") ;
+  background-image: url("/img/network.jpg");
   background-position: center center;
-  background-repeat:  no-repeat;
-  background-size:  cover;
-  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .title {
+    color: white;
+  }
 
   .social-wrapper {
     background-color: rgba(0, 0, 0, 0.2);
@@ -134,9 +137,9 @@
 
   .card-image {
     background-position: center center;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     //background-attachment: fixed;
-    background-size:  cover;
+    background-size: cover;
   }
 }
 
