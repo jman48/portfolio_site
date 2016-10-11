@@ -152,23 +152,19 @@
   .contact {
     display: inline-block;
     color: white;
+    margin-bottom: 15px;
+
+    .content-wrapper {
+      text-align: center;
+    }
 
     a {
       color: white;
+      text-decoration: none;
     }
 
     i {
       font-size: 48px;
-      display: inline-block;
-      float: left;
-    }
-
-    span {
-      display: inline-block;
-      align-items: center;
-      float: left;
-      margin-top: 14px;
-      margin-left: 5px;
     }
   }
 }
