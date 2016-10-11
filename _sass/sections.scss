@@ -11,6 +11,11 @@
 .section {
   .title {
     font-weight: 300;
+    text-align: center;
+  }
+
+  .sub-header {
+    text-align: center;
   }
 }
 
@@ -95,6 +100,23 @@
       text-align: center;
       margin-bottom: 5px;
     }
+  }
+}
+
+.social {
+  background-image: url("/img/network.jpg") ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+
+  color: white;
+
+  .social-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  i {
+    text-align: center;
   }
 }
 
