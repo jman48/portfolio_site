@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	$(".typed").typed({
-		strings: ["Software Engineer", "Web Developer", "Programmer"], // ^{number} denotes time in ms to wait
+		strings: ["Software Engineer", "Web Developer", "Programmer"],
 
 		// typing speed
 		typeSpeed: 100,
@@ -40,5 +40,11 @@ $(document).ready(function () {
 		appendArrows: $('.arrows'),
 		prevArrow: '<button class="prev-button"><i class="material-icons md-48">arrow_back</i></button>',
 		nextArrow: '<button class="next-button"><i class="material-icons md-48">arrow_forward</i></button>'
+	});
+
+	//Hide the menu and overlay when user clicks a navigation item
+	$('.mdl-layout__drawer .mdl-navigation__link').click(function(){
+		$('.mdl-layout__drawer').toggleClass('is-visible');
+		$('.mdl-layout__obfuscator').toggleClass('is-visible')
 	});
 });
