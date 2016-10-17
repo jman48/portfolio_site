@@ -1,0 +1,19 @@
+.social {
+  background-image: url("/img/network.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .title {
+    color: white;
+  }
+
+  .social-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .social-icon {
+    text-align: center;
+    color: white;
+  }
+}

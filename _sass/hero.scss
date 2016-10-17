@@ -1,15 +1,16 @@
 body {
-  background-image: url("/img/hero.jpg") ;
+  background-image: url("/img/hero.jpg");
   background-position: center center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:  cover;
+  background-size: cover;
 }
 
 .hero_section {
   height: calc(100vh - 50px);
   width: 100%;
   display: table;
+  background-color: rgba(0, 0, 0, 0.3);
 
   .hero_title {
     text-align: center;

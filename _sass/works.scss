@@ -1,0 +1,19 @@
+.works-section {
+  background-color: white;
+
+  .mdl-card__title, .mdl-card__supporting-text {
+    color: white;
+  }
+
+  .card-inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 160px;
+  }
+
+  .card-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    //background-attachment: fixed;
+    background-size: cover;
+  }
+}

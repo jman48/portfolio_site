@@ -1,0 +1,28 @@
+.contact-section {
+  .wrapper {
+    background-color: rgba(34, 150, 243, 1);
+  }
+
+  .title, .sub-header {
+    color: white;
+  }
+
+  .contact {
+    display: inline-block;
+    color: white;
+    margin-bottom: 15px;
+
+    .content-wrapper {
+      text-align: center;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    i {
+      font-size: 48px;
+    }
+  }
+}

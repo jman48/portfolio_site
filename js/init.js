@@ -34,7 +34,6 @@ $(document).ready(function () {
 	});
 
 	$('.skills').slick({
-		infinite: true,
 		variableWidth: true,
 		slidesToShow: 1,
 		swipeToSlide: true,
