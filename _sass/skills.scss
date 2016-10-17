@@ -1,12 +1,12 @@
 .summary-section {
-  background-color: white;
+  background-color: $background_white;
 }
 
 .skills-section {
-  background-color: #2296F3;
+  background-color: $brand_blue;
 
   .title, .sub-header {
-    color: white;
+    color: $font_white;
   }
 
   .arrows {
@@ -35,9 +35,9 @@
         border-radius: 50%;
         width: 48px;
         height: 48px;
-        color: #2296F3;
+        color: $brand_blue;
 
-        background-color: white;
+        background-color: $icon_white;
       }
     }
 
@@ -53,7 +53,7 @@
 
     .skill-level {
       max-height: 200px;
-      background-color: white;
+      background-color: $background_white;
       display: block;
       width: 30px;
       margin-left: auto;
@@ -63,7 +63,7 @@
     .skill-name {
       text-align: center;
       margin-bottom: 5px;
-      color: white;
+      color: $font_white;
     }
   }
 }

@@ -5,7 +5,7 @@ p, h1, h2, span {
 }
 
 .mdl-layout__drawer-button > i {
-  color: white;
+  color: $font_white;
 }
 
 .section {
@@ -18,7 +18,7 @@ p, h1, h2, span {
   .title {
     font-weight: 300;
     text-align: center;
-    color: #2296F3;
+    color: $brand_blue;
   }
 
   .sub-header {
@@ -27,7 +27,7 @@ p, h1, h2, span {
 }
 
 .typed {
-  color: white;
+  color: $font_white;
   font-weight: 300;
   min-height: 40px;
 }
