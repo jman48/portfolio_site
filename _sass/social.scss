@@ -16,4 +16,11 @@
     text-align: center;
     color: $icon_white;
   }
+
+  .mdl-cell {
+    @media (max-width: $tablet-size) {
+      width: 33%;
+      margin: 0;
+    }
+  }
 }
