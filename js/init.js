@@ -35,7 +35,6 @@ $(document).ready(function () {
 
 	$('.skills').slick({
 		variableWidth: true,
-		slidesToShow: 1,
 		swipeToSlide: true,
 		appendArrows: $('.arrows'),
 		prevArrow: '<button class="prev-button"><i class="material-icons md-48">arrow_back</i></button>',

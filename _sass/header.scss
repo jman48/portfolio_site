@@ -1,0 +1,7 @@
+
+.mdl-layout__drawer-button {
+  @media screen and (min-width: 1024px) {
+    opacity: 0;
+    display: none;
+  }
+}
