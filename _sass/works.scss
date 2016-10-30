@@ -3,6 +3,10 @@
 
   .mdl-card__title, .mdl-card__supporting-text {
     color: $font_white;
+    
+    p {
+      font-size: $base-font-size;
+    }
   }
 
   .card-inner {
