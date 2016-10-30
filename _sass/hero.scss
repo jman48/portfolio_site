@@ -12,6 +12,10 @@ body {
   display: table;
   background-color: rgba(0, 0, 0, 0.3);
 
+  .sub-header {
+    font-size: $large-font-size;
+  }
+
   .hero_title {
     text-align: center;
     margin-left: auto;
@@ -22,6 +26,7 @@ body {
     .hero_text {
       color: $font_white;
       font-weight: 300;
+
     }
   }
 }
