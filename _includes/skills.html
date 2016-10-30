@@ -6,8 +6,8 @@
     <div class="skills">
       {% for skill in site.skills %}
       <div class="skill">
+        <div class="skill-level" style="height: {{skill.weight | times: 2}}px; margin-top: calc(200px - {{skill.weight | times: 2}}px)"></div>
         <div class="skill-name">{{skill.title}}</div>
-        <div class="skill-level" style="height: {{skill.weight | times: 2}}px"></div>
       </div>
       {% endfor %}
     </div>
