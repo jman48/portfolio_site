@@ -1,0 +1,11 @@
+.about-section {
+  background-color: white;
+
+  .section {
+    margin-top: 200px;
+
+    @media (max-width: $phone-size) {
+      margin-top: 190px;
+    }
+  }
+}
