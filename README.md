@@ -1,5 +1,5 @@
 # Portfolio site
-This is the repo for my portfolio site located at [portfolio.johnarmstrong.co](portfolio.johnarmstrong.co)
+This is the repo for my portfolio site located at [portfolio.johnarmstrong.co](http://portfolio.johnarmstrong.co)
 
 ## Install
 
