@@ -46,4 +46,6 @@ $(document).ready(function () {
 		$('.mdl-layout__drawer').toggleClass('is-visible');
 		$('.mdl-layout__obfuscator').toggleClass('is-visible')
 	});
+
+    $.backstretch("img/hero.jpg");
 });
